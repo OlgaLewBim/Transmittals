@@ -61,6 +61,8 @@ def transmittalnotes(single_file_name):
       originator = "Equans"
     elif list[1] == "IBS":
       originator = "IBS"
+    elif list[1] == "KVT":
+      originator = "KVT"
     else:
       originator = "<update company name>"
     discipline = list[7]
@@ -71,6 +73,8 @@ def transmittalnotes(single_file_name):
       Number = "For Approv"
     elif list[6] in range(2000, 3000):
       Number = "Approved"
+    elif list[6] in range(5000, 6000):
+      Number = "Pfizer internal as-build"
     elif list[6] in range(9000, 10000):
       Number = "As Built"
     else:

@@ -104,9 +104,9 @@ from transmittal_func import*
 #       Number = "<update number codification>"
 #   print("- updated %s %s %s model" % (originator, discipline, Number))
 
-v = 80
+v = 84
 
-print("Federated model V%s %s" % (v, ":"))
+print("Federated model V%s:" % (v))
 for n in result:
   transmittalnotes(n)
 
